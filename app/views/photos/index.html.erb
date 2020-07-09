@@ -1,0 +1,10 @@
+<% @photos.each do |photo| %>
+  <ul>
+    <li><%= photo.title %></li>
+    <li><%= photo.description %></li>
+    <li><%= photo.votes %></li>
+    <%= image_tag photo.image.url if !photo.image.url.nil? %>
+  </ul>
+<% end%>
+
+<%= link_to "Create new", upload_path %>
