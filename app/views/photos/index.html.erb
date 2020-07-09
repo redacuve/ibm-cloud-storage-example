@@ -3,7 +3,7 @@
     <li><%= photo.title %></li>
     <li><%= photo.description %></li>
     <li><%= photo.votes %></li>
-    <li><%= photo.image %></li>
+    <%= image_tag photo.image.url if !photo.image.url.nil? %>
   </ul>
 <% end%>
 
