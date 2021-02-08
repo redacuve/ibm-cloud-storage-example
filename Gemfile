@@ -27,7 +27,7 @@ gem 'jbuilder', '~> 2.7'
 
 # My Gems
 # Uploader
-gem 'carrierwave', '~> 2.0'
+gem 'carrierwave', '~> 2.1'
 # Help with Ibm Cloud (aws configuration)
 gem 'fog-aws'
 # image resizing
